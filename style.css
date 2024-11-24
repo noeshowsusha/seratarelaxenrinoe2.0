@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e5f5e0; /* Colore di sfondo verde chiaro */
+    color: #2c6e49; /* Colore del testo verde scuro */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4a9c6c; /* Verde intenso */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.programma {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.programma h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #2c6e49;
+}
+
+.programma ul {
+    list-style-type: none;
+}
+
+.programma li {
+    padding: 15px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.programma li:last-child {
+    border-bottom: none;
+}
+
+.programma li.highlight {
+    background-color: #a8e6a4; /* Verde pastello chiaro per evidenziare */
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a9c6c;
+    color: white;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
